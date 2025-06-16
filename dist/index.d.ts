@@ -7,9 +7,9 @@ import formatNumber from './formatNumber';
 import formatPersonalNo from './formatPersonalNo';
 import formatTelNo from './formatTelNo';
 declare const _default: {
-    formatBusinessNo: typeof formatBusinessNo;
-    formatNumber: typeof formatNumber;
-    formatPersonalNo: typeof formatPersonalNo;
-    formatTelNo: typeof formatTelNo;
+    businessNo: typeof formatBusinessNo;
+    number: typeof formatNumber;
+    personalNo: typeof formatPersonalNo;
+    telNo: typeof formatTelNo;
 };
 export default _default;

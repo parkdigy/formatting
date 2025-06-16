@@ -90,8 +90,8 @@ function formatTelNo(v, allowCharacters) {
     }
     return tmp;
 }var index = {
-    formatBusinessNo: formatBusinessNo,
-    formatNumber: formatNumber,
-    formatPersonalNo: formatPersonalNo,
-    formatTelNo: formatTelNo,
+    businessNo: formatBusinessNo,
+    number: formatNumber,
+    personalNo: formatPersonalNo,
+    telNo: formatTelNo,
 };export{index as default,formatBusinessNo,formatNumber,formatPersonalNo,formatTelNo};

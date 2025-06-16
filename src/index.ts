@@ -9,8 +9,8 @@ import formatPersonalNo from './formatPersonalNo';
 import formatTelNo from './formatTelNo';
 
 export default {
-  formatBusinessNo,
-  formatNumber,
-  formatPersonalNo,
-  formatTelNo,
+  businessNo: formatBusinessNo,
+  number: formatNumber,
+  personalNo: formatPersonalNo,
+  telNo: formatTelNo,
 };
