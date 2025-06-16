@@ -1,4 +1,4 @@
-'use strict';/********************************************************************************************************************
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});/********************************************************************************************************************
  * 사업자 등록번호에 하이픈 추가하는 함수
  * @param v 사업자등록번호
  * @param allowCharacters 허용할 문자들 (기본값: '*')
@@ -89,4 +89,9 @@ function formatTelNo(v, allowCharacters) {
         tmp += '-';
     }
     return tmp;
-}exports.formatBusinessNo=formatBusinessNo;exports.formatNumber=formatNumber;exports.formatPersonalNo=formatPersonalNo;exports.formatTelNo=formatTelNo;
+}var index = {
+    formatBusinessNo: formatBusinessNo,
+    formatNumber: formatNumber,
+    formatPersonalNo: formatPersonalNo,
+    formatTelNo: formatTelNo,
+};exports.default=index;exports.formatBusinessNo=formatBusinessNo;exports.formatNumber=formatNumber;exports.formatPersonalNo=formatPersonalNo;exports.formatTelNo=formatTelNo;

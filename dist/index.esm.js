@@ -89,4 +89,9 @@ function formatTelNo(v, allowCharacters) {
         tmp += '-';
     }
     return tmp;
-}export{formatBusinessNo,formatNumber,formatPersonalNo,formatTelNo};
+}var index = {
+    formatBusinessNo: formatBusinessNo,
+    formatNumber: formatNumber,
+    formatPersonalNo: formatPersonalNo,
+    formatTelNo: formatTelNo,
+};export{index as default,formatBusinessNo,formatNumber,formatPersonalNo,formatTelNo};
