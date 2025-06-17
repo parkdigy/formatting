@@ -1,8 +1,8 @@
 {
   "name": "@pdg/formatting",
   "title": "Typescript Formatting Module",
-  "version": "1.0.2",
-  "description": "API Module",
+  "description": "Typescript Formatting Module",
+  "version": "1.0.3",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
