@@ -1,4 +1,4 @@
-/********************************************************************************************************************
+import dayjs from'dayjs';/********************************************************************************************************************
  * 사업자 등록번호에 하이픈 추가하는 함수
  * @param v 사업자등록번호
  * @param allowCharacters 허용할 문자들 (기본값: '*')
@@ -13,6 +13,23 @@ function formatBusinessNo(v, allowCharacters) {
     if (str.length > 5)
         values.push(str.slice(5));
     return values.join('-');
+}/********************************************************************************************************************
+ * 날짜를 주어진 형식의 텍스트로 변환
+ * - 기본 형식 : YYYY-MM-DD HH:mm:ss
+ * @param date 날짜
+ * @param format 형식
+ * @returns 형식화된 날짜
+ * ******************************************************************************************************************/
+function formatDate(date, format) {
+    if (date === null) {
+        return null;
+    }
+    else if (date === undefined) {
+        return undefined;
+    }
+    else {
+        return dayjs(date).format(format === undefined ? 'YYYY-MM-DD HH:mm:ss' : format);
+    }
 }/********************************************************************************************************************
  * 숫자 또는 문자열로 주어진 숫자에 콤마 추가하는 함수
  * @param v - 숫자 또는 문자열
@@ -91,7 +108,8 @@ function formatTelNo(v, allowCharacters) {
     return tmp;
 }var index = {
     businessNo: formatBusinessNo,
+    date: formatDate,
     number: formatNumber,
     personalNo: formatPersonalNo,
     telNo: formatTelNo,
-};export{index as default,formatBusinessNo,formatNumber,formatPersonalNo,formatTelNo};
+};export{index as default,formatBusinessNo,formatDate,formatNumber,formatPersonalNo,formatTelNo};

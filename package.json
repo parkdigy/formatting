@@ -2,7 +2,7 @@
   "name": "@pdg/formatting",
   "title": "Typescript Formatting Module",
   "description": "Typescript Formatting Module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
@@ -64,5 +64,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
   }
 }
