@@ -2,7 +2,7 @@
   "name": "@pdg/formatting",
   "title": "Typescript Formatting Module",
   "description": "Typescript Formatting Module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
