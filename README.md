@@ -4,5 +4,5 @@ Typescript Formatting Module
 
 ## 설치
 ```
-npm install -D @pdg/formatting
+npm install -D @pdg/formatting dayjs
 ```

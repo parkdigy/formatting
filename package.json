@@ -2,7 +2,7 @@
   "name": "@pdg/formatting",
   "title": "Typescript Formatting Module",
   "description": "Typescript Formatting Module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
@@ -51,8 +51,8 @@
     "typescript",
     "javascript"
   ],
-  "dependencies": {
-    "dayjs": "^1.11.13"
+  "peerDependencies": {
+    "dayjs": "^1.11.0"
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
@@ -62,6 +62,7 @@
     "@types/jest": "29.5.14",
     "@types/node": "22.19.2",
     "@typescript-eslint/parser": "8.49.0",
+    "dayjs": "^1.11.19",
     "eslint": "9.39.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.4",
