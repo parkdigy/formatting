@@ -3,14 +3,14 @@
     "target": "Es2017",
     "module": "ESNext",
     "lib": ["ES2017"],
-    "moduleResolution": "node",
+    "types": ["node"],
+    "moduleResolution": "bundler",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "preserveSymlinks": true,
-    "baseUrl": "./"
+    "preserveSymlinks": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "src/**/*.test.tsx"]
